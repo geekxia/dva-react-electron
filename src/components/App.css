@@ -1,0 +1,35 @@
+.app {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+}
+.sider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 220px;
+    box-sizing: border-box;
+    border-right: 1px solid #ccc;
+}
+.header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 220px;
+    height: 60px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+}
+.content {
+    position: absolute;
+    top: 60px;
+    left: 220px;
+    bottom: 0;
+    right: 0;
+    box-sizing: box-sizing;
+    padding: 25px;
+}

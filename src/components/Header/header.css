@@ -1,0 +1,9 @@
+.header {
+    overflow: hidden;
+    line-height: 60px;
+}
+.exit {
+    float: right;
+    padding: 0 25px;
+    cursor: pointer;
+}
